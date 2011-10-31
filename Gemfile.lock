@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    i18n (0.6.0)
+    money (3.7.1)
+      i18n (~> 0.4)
+    test-unit (2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  money
+  test-unit
