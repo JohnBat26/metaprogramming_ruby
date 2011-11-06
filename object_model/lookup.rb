@@ -5,5 +5,8 @@ class MyClass
 end
 class MySubclass < MyClass
 end
+
 obj = MySubclass.new
 puts obj.my_method() # => "my_method()"
+puts MySubclass.ancestors
+
