@@ -6,17 +6,14 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr for more book information.
 #---
-begin
-class Lawyer; end
+# A unit test for the bug in the proxy-based Computer
 
-nick = Lawyer.new
-nick.talk_simple
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `talk_simple' for #<Lawyer:0x38c9e4>>
-end
+require 'test/unit'
 
-begin
-nick.send :method_missing, :my_method
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `my_method' for #<Lawyer:0x38c9e4>>
+class ComputerTest < Test::Unit::TestCase
+  def test_works_correctly_with_display
+    assert_equal '* Display: LED 1280x1024 ($150)', @computer.display
+  end
+
+  # ...
 end

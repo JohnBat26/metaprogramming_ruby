@@ -6,17 +6,19 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr for more book information.
 #---
-begin
-class Lawyer; end
-
-nick = Lawyer.new
-nick.talk_simple
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `talk_simple' for #<Lawyer:0x38c9e4>>
+class Roulette
+  def method_missing(name, *args)
+    person = name.to_s.capitalize
+    super unless %w[Bob Frank Bill].include? person
+    number = 0
+    3.times do
+      number = rand(10) + 1
+      puts "#{number}..."
+    end
+    "#{person} got a #{number}"
+  end
 end
 
-begin
-nick.send :method_missing, :my_method
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `my_method' for #<Lawyer:0x38c9e4>>
-end
+number_of = Roulette.new
+puts number_of.bob
+puts number_of.frank

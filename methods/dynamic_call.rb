@@ -6,17 +6,13 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr for more book information.
 #---
-begin
-class Lawyer; end
-
-nick = Lawyer.new
-nick.talk_simple
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `talk_simple' for #<Lawyer:0x38c9e4>>
+class MyClass
+  def my_method(my_arg)
+    my_arg * 2
+  end
 end
 
-begin
-nick.send :method_missing, :my_method
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `my_method' for #<Lawyer:0x38c9e4>>
-end
+obj = MyClass.new
+obj.my_method(3)  # => 6
+
+obj.send(:my_method, 3)   # => 6

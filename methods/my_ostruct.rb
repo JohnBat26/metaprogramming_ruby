@@ -6,17 +6,21 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr for more book information.
 #---
-begin
-class Lawyer; end
+class MyOpenStruct
+  def initialize
+    @attributes = {}
+  end
 
-nick = Lawyer.new
-nick.talk_simple
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `talk_simple' for #<Lawyer:0x38c9e4>>
+  def method_missing(name, *args)
+    attribute = name.to_s
+    if attribute =~ /=$/
+      @attributes[attribute.chop] = args[0]
+    else
+      @attributes[attribute]
+    end 
+  end
 end
 
-begin
-nick.send :method_missing, :my_method
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `my_method' for #<Lawyer:0x38c9e4>>
-end
+icecream = MyOpenStruct.new
+icecream.flavor = "vanilla"
+icecream.flavor               # => "vanilla"

@@ -6,17 +6,14 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr for more book information.
 #---
-begin
-class Lawyer; end
-
-nick = Lawyer.new
-nick.talk_simple
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `talk_simple' for #<Lawyer:0x38c9e4>>
+class Lawyer
+  def method_missing(method, *args)
+    puts "You called: #{method}(#{args.join(', ')})"
+    puts "(You also passed it a block)" if block_given?
+  end
 end
 
-begin
-nick.send :method_missing, :my_method
-rescue Exception => e
-  e # => #<NoMethodError: undefined method `my_method' for #<Lawyer:0x38c9e4>>
+bob = Lawyer.new
+bob.talk_simple('a', 'b') do
+  # a block
 end

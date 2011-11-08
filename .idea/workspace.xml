@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db289e7-5b13-4d33-b74b-94036205697b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/object_model/replace.rb" afterPath="" />
+    <list default="true" id="3db289e7-5b13-4d33-b74b-94036205697b" name="Default" comment="initial commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/bug_hunt.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/bug_hunt_solution.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/builder_example.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/blank.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/boring.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/bug_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/data_source.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/dynamic.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/failure.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/final.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/more_blank.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/more_dynamic.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/proxy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/send.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/computer/unit_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/const_missing.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/delegator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/dynamic_call.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/dynamic_definition.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/methods_benchmark.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/more_method_missing.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/my_ostruct.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/ostruct_example.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods/ruport_example.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metaprogramming_ruby.iml" afterPath="$PROJECT_DIR$/metaprogramming_ruby.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/object_model/lookup.rb" afterPath="$PROJECT_DIR$/object_model/lookup.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/methods/method_missing.rb" afterPath="$PROJECT_DIR$/methods/method_missing.rb" />
     </list>
     <ignored path="metaprogramming_ruby.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,73 +87,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="introspection.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduction/introspection.rb">
+      <file leaf-file-name="dynamic_call.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/dynamic_call.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.IntelliJIdea10/config/plugins/ruby/rubystubs/rubystubs19/class.rb">
+      <file leaf-file-name="blank.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/computer/blank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="17" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.0">
+            <state line="37" column="34" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.IntelliJIdea10/config/plugins/ruby/rubystubs/rubystubs19/module.rb">
+      <file leaf-file-name="boring.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/computer/boring.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="676" column="8" selection-start="20549" selection-end="20549" vertical-scroll-proportion="0.0">
+            <state line="13" column="14" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lookup.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/object_model/lookup.rb">
+      <file leaf-file-name="dynamic.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/computer/dynamic.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="dynamic_call.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/dynamic_call.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="17" column="6" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/bin/rake">
+      <file leaf-file-name="ostruct_example.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/ostruct_example.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="18" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/lib/rake/application.rb">
+      <file leaf-file-name="dynamic_definition.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/methods/dynamic_definition.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="12" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rake.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/lib/rake.rb">
+      <file leaf-file-name="data_source.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/computer/data_source.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2027" selection-end="2027" vertical-scroll-proportion="0.0">
+            <state line="18" column="92" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,10 +168,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="task.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/rake/task.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="318" column="9" selection-start="9461" selection-end="9461" vertical-scroll-proportion="7.1901336">
+            <state line="318" column="9" selection-start="9461" selection-end="9461" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,6 +188,10 @@
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///IRB console" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///IRB console" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -176,6 +203,7 @@
         <option value="$PROJECT_DIR$/object_model/replace.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/object_model/lookup.rb" />
+        <option value="$PROJECT_DIR$/methods/computer/data_source.rb" />
       </list>
     </option>
   </component>
@@ -212,8 +240,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,9 +279,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaprogramming_ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metaprogramming_ruby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,50 +311,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.lookup">
-    <configuration default="false" name="alphanumeric" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="metaprogramming_ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/object_model" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/object_model/alphanumeric.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="class_def" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="metaprogramming_ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/object_model" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/object_model/class_def.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.dynamic_call">
     <configuration default="false" name="money" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="metaprogramming_ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -375,6 +377,48 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="method_missing" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="metaprogramming_ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/methods" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/methods/method_missing.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dynamic_call" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="metaprogramming_ruby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/modules" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/modules/dynamic_call.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -483,6 +527,31 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="RTestSpecRunConfigurationType" factoryName="Test-Spec">
+      <predefined_log_file id="RUBY_TESTSCPEC" enabled="true" />
+      <module name="" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_EXAMPLE_NAME" VALUE="" />
+      <RTESTSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -578,11 +647,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.alphanumeric" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.class_def" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.money" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.replace" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.lookup" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.money" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.replace" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.lookup" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.method_missing" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.dynamic_call" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -599,13 +668,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1158" extended-state="7" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1158" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2532274" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25224328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -616,8 +685,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1675589" sideWeight="0.72095335" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27904668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1675589" sideWeight="0.670987" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2781655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -679,6 +748,14 @@
           <url>file://$PROJECT_DIR$/object_model/replace.rb</url>
           <line>11</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/methods/method_missing.rb</url>
+          <line>16</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/modules/dynamic_call.rb</url>
+          <line>6</line>
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -687,72 +764,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/object_model/money.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p290/gems/money-3.7.1/lib/money/currency.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p290/gems/money-3.7.1/lib/money/core_extensions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_model/class_def.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_model/class_redef.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea10/config/plugins/ruby/rubystubs/rubystubs19/class.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="17" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IntelliJIdea10/config/plugins/ruby/rubystubs/rubystubs19/module.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="676" column="8" selection-start="20549" selection-end="20549" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/bin/rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/object_model/lookup.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="23" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/introduction/introspection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="12" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/lib/rake/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="12" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.0" />
+        <state line="93" column="24" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/method_missing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p0/gems/rake-0.9.2/lib/rake.rb">
@@ -767,7 +803,61 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/rake/task.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="318" column="9" selection-start="9461" selection-end="9461" vertical-scroll-proportion="7.1901336">
+        <state line="318" column="9" selection-start="9461" selection-end="9461" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/dynamic_call.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/computer/data_source.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="92" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/computer/blank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="34" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/computer/boring.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="14" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/computer/dynamic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/dynamic_call.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="6" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/ostruct_example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/dynamic_definition.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
